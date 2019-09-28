@@ -1,7 +1,17 @@
+#Header{
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index:500;
+    color: white;
+
+}
 .contactInfo span{
     margin-right: 15px; 
 }
-
+#Header .row{
+    border-bottom: 1px solid white;
+}
 .btnBook button{
     padding: 14px 30px;
     font-size:12px;
@@ -10,4 +20,97 @@
     background: #ca3d26;
     border:none; 
     letter-spacing: 2px;
+}
+
+#NavBar .container .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    }
+
+    #NavBar .container .menu ul li{
+        display: flex;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 40px 20px; 
+        color: white;    
+    }
+    
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #welcome{
+        background: url(http://quomodosoft.com/html/dawat/demo/img/slider/slide_1.jpg);
+        height: 700px;
+        position:relative;
+    }
+
+    .welcomeMiddle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+
+    #welcome h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    }
+
+    #welcome .welcomeMiddle button{
+        padding: 15px;
+        color: white;
+        background:#ca3d26;
+        border:none; 
+    }
+
+    .containerTop h2{
+        text-align: center;
+        position: relative;
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+        color: #ca3d26;
+        padding: 15px;
+
+    }
+    .containerTop{
+        padding: 45px;
+    }
+    .containerTop h2::after{
+        content: '';
+        background: url(http://quomodosoft.com/html/dawat/demo/img/icons/red.png) no-repeat center center /contain;
+        height: 30px;
+        position: absolute;
+        left:0;
+        bottom: -25px;
+        margin:auto;
+        width: 100%;
+    }
+
+.NavMenu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.NavMenu ul li{
+    border: 1px solid #1e1e1f;
+    font-size: 16px;
+    font-weight:700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    list-style: none;
+    margin: 0 2px;
+    padding: 3px 10px;
+}
+
+.NavMenu ul li:hover{
+    color: #1e1e1f;
+    background: #ca3d26;
+    transition: .3s;
 }
