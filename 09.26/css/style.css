@@ -9,7 +9,7 @@
 .contactInfo span{
     margin-right: 15px; 
 }
-#Header .row{
+#Header .border {
     border-bottom: 1px solid white;
 }
 .btnBook button{
@@ -57,7 +57,7 @@
 
     #welcome h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 82px;
     letter-spacing: 2px;
     text-transform: capitalize;
     color: white;
@@ -69,16 +69,31 @@
         background:#ca3d26;
         border:none; 
     }
+/* ============
+Welcome End
+============ */
+.BigText{
+    float: left;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.Story .col-md-6 {
+    color: #4a4d4f;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
 
-    .containerTop h2{
+
+
+    .containerTop h2, .Story h1 {
         text-align: center;
         position: relative;
         font-family: 'Dancing Script', cursive;
         font-size: 60px;
         color: #ca3d26;
         padding: 15px;
-
     }
+
     .containerTop{
         padding: 45px;
     }
